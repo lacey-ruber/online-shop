@@ -1,11 +1,25 @@
 .product-page {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin: 100px 0 30px;
+  @media (max-width: 768px) {
+    margin: 50px 0 30px;
+    flex-direction: column;
+    align-items: center;
+  }
   img {
     height: 500px;
     width: 500px;
     object-fit: contain;
+    @media (max-width: 768px) {
+      height: 300px;
+      width: 300px;
+      margin-bottom: 20px;
+    }
+    @media (max-width: 576px) {
+      height: 200px;
+      width: 200px;
+    }
   }
   &__back {
     margin-top: 20px;
@@ -36,6 +50,9 @@
     justify-content: space-around;
     width: 60%;
     margin-left: 20px;
+    @media (max-width: 768px) {
+      width: 100%;
+    }
     h3 {
       font-size: 24px;
     }
