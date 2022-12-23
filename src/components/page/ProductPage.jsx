@@ -42,7 +42,7 @@ const ProductPage = () => {
     return (
       <>
         <button className='product-page__back' onClick={handleGoBack}>
-          Назад
+          Back
         </button>
         <div className='product-page'>
           <img src={product.image} alt='Product' />
