@@ -25,21 +25,24 @@
     margin-top: 20px;
     display: flex;
     align-items: center;
+    width: 190px;
     border: 1px solid #ddd;
     justify-content: center;
-    width: 110px;
     border-radius: 30px;
     cursor: pointer;
     min-width: 100px;
     padding: 10px 0px;
     text-align: center;
-    color: white;
-    background-color: black;
+    color: #333;
     font-size: 16px;
     &:hover {
-      background-color: white;
+      background-color: whitesmoke;
       transition: all 0.15s ease-in-out;
-      color: black;
+    }
+    p {
+      font-weight: 600;
+      margin-bottom: 2px;
+      margin-left: -4px;
     }
   }
 
